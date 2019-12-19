@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+.header {
+    width: 100%;
+    height: 98px;
+}
+
+.header .logo {
+    width: 1346px;
+    height: 98px;
+    margin: 0 auto;
+}
+
+.header .logo img {
+    margin-left: 110px;
+}
+
+.main {
+    width: 100%;
+}
+
+.main .index {
+    width: 1346px;
+    height: 588px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/e8201bfbb8c9d474a48da76f7d81a5c7.jpg);
+    background-position: -610px;
+}
+
+.main .index .logIn {
+    width: 416px;
+    height: 557px;
+    background: white;
+    position: absolute;
+    top: 31px;
+    left: 828px;
+}
+
+.main .index .logIn ul {
+    width: 100%;
+    padding-top: 34px;
+    box-sizing: border-box;
+}
+
+.main .index .logIn ul li {
+    width: 50%;
+    height: 30px;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    color: #777777;
+    cursor: pointer;
+}
+
+.main .index .logIn ul li:nth-of-type(1) {
+    border-right: 1px solid #e0e0e0;
+}
+
+.main .index .logIn .ID {
+    width: 350px;
+    height: 464px;
+    margin-left: 32px;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.main .index .logIn .ID input {
+    width: 348px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    padding-left: 14px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.main .index .logIn .ID input:nth-of-type(2) {
+    margin-top: 14px;
+}
+
+.main .index .logIn .ID .register {
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    margin-top: 24px;
+    background: #ff6700;
+    color: white;
+    cursor: pointer;
+}
+
+.main .index .logIn .ID .lognWay {
+    display: none;
+}
+
+.main .index .logIn .ID .lognWay span a {
+    color: #999999;
+}
+
+.main .index .logIn .ID .lognWay span:nth-of-type(1) {
+    display: inline-block;
+    margin: 12px 0 0 0;
+    color: #ff6700;
+    cursor: pointer;
+}
+
+.main .index .logIn .ID .lognWay span:nth-of-type(2) {
+    margin-left: 94px;
+    cursor: pointer;
+}
+
+.main .index .logIn .link {
+    width: 350px;
+    height: 116px;
+    position: absolute;
+    left: 32px;
+    bottom: 0;
+    border-top: 1px solid #bbbbbb;
+}
+
+.main .index .logIn .link p {
+    text-align: center;
+    color: #bbbbbb;
+    margin-top: -10px;
+}
+
+.main .index .logIn .link p .linkspan {
+    margin: 0 0 0 0;
+    background: white;
+}
+
+.main .index .logIn .link a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    margin-right: 32px;
+    margin-top: 16px;
+}
+
+.main .index .logIn .link a:nth-of-type(1) {
+    margin-left: 64px;
+    color: #0288d1;
+}
+
+.main .index .logIn .link a:nth-of-type(2) {
+    font-size: 34px;
+    color: #d32f2f;
+}
+
+.main .index .logIn .link a:nth-of-type(3) {
+    color: #00aaee;
+}
+
+.main .index .logIn .link a:nth-of-type(4) {
+    font-size: 34px;
+    color: #00d20d;
+}
+
+.main .index .logIn .scan {
+    width: 350px;
+    height: 464px;
+    margin-left: 32px;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.main .index .logIn .scan img {
+    width: 182px;
+    height: 182px;
+    margin-left: 82px;
+    margin-top: 38px;
+}
+
+.main .index .logIn .scan p {
+    color: #757575;
+    font-size: 14px;
+}
+
+.main .index .logIn .scan p:nth-of-type(1) {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main .index .logIn .scan p:nth-of-type(1) span {
+    color: #ff6700;
+}
+
+.main .index .logIn .scan p:nth-of-type(2) {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.main .index .logIn .titleColorSub,
+.main .index .logIn .titleColor {
+    color: #f56600;
+}
+
+.footer {
+    width: 100%;
+    height: 180px;
+}
+
+.footer .footerInfo {
+    width: 1346px;
+    margin: 0 auto;
+    padding-top: 106px;
+}
+
+.footer .footerInfo ul {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.footer .footerInfo ul li {
+    float: left;
+    font-size: 14px;
+}
+
+.footer .footerInfo ul li a {
+    color: #757575;
+}
+
+.footer .footerInfo ul li a:hover {
+    color: #333333;
+}
+
+.footer .footerInfo ul li:nth-last-of-type(2n) {
+    margin: 0 12px;
+}
+
+.footer .footerInfo p {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.footer .footerInfo p i {
+    display: inline-block;
+}
+
+.cur {
+    display: block !important;
+}
+.current{
+    color: #ff6700;
+}

@@ -1,0 +1,438 @@
+@charset "utf-8";
+
+.main {
+    background: #f5f5f5;
+}
+
+.main .name {
+    width: 1226px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    /* background: pink; */
+}
+
+.name a {
+    display: inline-block;
+    color: #757575;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.name a:nth-child(2) {
+    margin-left: 5px;
+}
+
+.name span {
+    display: inline-block;
+    color: #B0B0B0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.name p {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #616161;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.kinds-wrap {
+    width: 100%;
+    height: 84px;
+    background: #fff;
+}
+
+.kinds {
+    width: 1226px;
+    height: 48px;
+    padding: 18px 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* background: pink; */
+}
+
+.kinds ul {
+    width: 100%;
+    height: 100%;
+}
+
+.kinds ul li {
+    width: 148px;
+    height: 48px;
+    float: left;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.kinds ul li:nth-child(1) {
+    color: #B0B0B0;
+}
+
+.kinds ul li:nth-child(2) {
+    color: #f60;
+}
+
+.kinds ul li:nth-child(3) {
+    color: #424242;
+}
+
+.sort-list {
+    background: #f5f5f5;
+}
+
+.sort {
+    width: 1226px;
+    height: 30px;
+    /* background: pink; */
+    margin: 20px auto;
+}
+
+.sort-left {
+    width: 400px;
+    height: 30px;
+    float: left;
+    /* background: plum; */
+}
+
+.sort-left li {
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    float: left;
+}
+
+.sort-left li:hover {
+    color: #f60;
+    transition: 0.3s;
+}
+
+.sort-left span {
+    float: left;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #B0B0B0;
+}
+
+.sort-right {
+    width: 500px;
+    height: 30px;
+    float: right;
+    /* background: plum; */
+}
+
+.sort-right li {
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: default;
+}
+
+.sort-right li:hover {
+    color: #f60;
+    transition: 0.3s;
+}
+
+.sort-right .address {
+    background: white;
+    width: 98px;
+    height: 28px;
+    border: 1px solid #e3e3e3;
+}
+
+.sort-right li input {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    background: white;
+    margin-top: 5.5px;
+}
+
+.sort-right li label {
+    height: 20px;
+    vertical-align: top;
+    line-height: 30px;
+}
+
+.list {
+    width: 1240px;
+    min-height: 1000px;
+    margin: 0 auto;
+    /* background: pink; */
+    /* background: #f5f5f5; */
+}
+
+.list ul {
+    width: 100%;
+    min-height: 1000px;
+}
+
+.list ul li {
+    width: 296px;
+    height: 383px;
+    padding-top: 47px;
+    margin: 0px 7px 14px;
+    background: #fff;
+    float: left;
+}
+
+.big-pic {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.big-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.list ul li p {
+    width: 230px;
+    height: 21px;
+    margin: 0px 33px;
+    overflow: hidden;
+}
+
+.list ul li p a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #424242;
+    line-height: 21px;
+    text-align: center;
+}
+
+.list ul li div {
+    width: 296px;
+    height: 21px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.list ul li div span {
+    height: 21px;
+    display: inline-block;
+    color: #ff6700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+.list ul li div s {
+    height: 21px;
+    line-height: 21px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.small-pic {
+    display: block;
+    width: 34px;
+    height: 34px;
+    margin: 0 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: border-color .2s linear;
+    margin: 0 auto;
+}
+
+.small-pic:hover {
+    border: 1px solid #ff6700;
+}
+
+.small-pic img {
+    width: 34px;
+    height: 34px;
+    display: block;
+    border: 0;
+}
+
+.fenqi {
+    width: 42px;
+    height: 18px;
+    margin: 8px auto;
+    border: 0;
+}
+
+.list ul li:hover {
+    box-shadow: #ccc 0px 2px 9px 3px;
+    transition: 0.3s;
+}
+
+.like {
+    width: 1226px;
+    height: 461px;
+    padding: 20px 0px 100px;
+    margin: 0 auto;
+    /* background: pink; */
+}
+
+.name1 {
+    position: relative;
+    margin: 0;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #757575;
+    border-top: 1px solid #e0e0e0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.like .name1 span {
+    position: absolute;
+    top: -20px;
+    left: 372px;
+    height: 40px;
+    width: 482px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    color: #757575;
+    font-size: 30px;
+    background-color: #f5f5f5;
+}
+
+.like .like_goods {
+    width: 1228px;
+    height: 332px;
+    overflow: hidden;
+    position: relative;
+}
+
+.like .like_goods .like_goods_ul {
+    margin-top: 34px;
+    width: 10000px;
+    height: 302px;
+    transition: 0.5s;
+    position: absolute;
+    left: 0;
+}
+
+.like .like_goods .like_goods_ul li {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 9px;
+    background: white;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.like .like_goods .like_goods_ul li:hover p:nth-last-of-type(1) {
+    display: block;
+}
+
+.like .like_goods .like_goods_ul li img {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.like .like_goods .like_goods_ul li p {
+    display: inline-block;
+    width: 188px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.like .like_goods .like_goods_ul li .like_title {
+    margin-top: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.like .like_goods .like_goods_ul li .like_price {
+    margin-top: 18px;
+    color: #ff6700;
+}
+
+.like .like_goods .like_goods_ul li .like_good {
+    color: #757575;
+    margin-top: 18px;
+}
+
+.like .like_goods .like_goods_ul li p:nth-last-of-type(1) {
+    position: absolute;
+    bottom: 10px;
+    left: 56px;
+    width: 122px;
+    height: 30px;
+    font-size: 14px;
+    color: #ff6700;
+    line-height: 30px;
+    border: 1px solid #ff6700;
+    box-sizing: border-box;
+    background: white;
+    display: none;
+    transition: 0.3s;
+}
+
+.like .like_goods .like_goods_ul li p:nth-last-of-type(1):hover {
+    color: white;
+    background: #ff6700;
+}
+
+.like .tog {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 110px;
+}
+
+.like .tog li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.like .tog li span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #b0b0b0;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -3px;
+    margin-left: -3px;
+}
+
+.like .tog li .tog_color {
+    margin-top: -4.8px;
+    margin-left: -4.8px;
+    background: white;
+    border: 2px solid #ff6700;
+}
+
+.all-goods {
+    width: 127px;
+    height: 24px;
+    /* background: pink; */
+    position: relative;
+    top: -60px;
+    left: 223px;
+    z-index: 1000;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+}

@@ -1,0 +1,226 @@
+body {
+    background: #f9f9f9;
+}
+
+.contain {
+    width: 854px;
+    height: 854px;
+    background: white;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.contain .logo {
+    margin: 0 auto;
+}
+
+.contain h1 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contain .form {
+    width: 332px;
+    height: 254px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+}
+
+.contain .form .area {
+    color: #333333;
+}
+
+.contain .form .country {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 16px;
+    color: #555555;
+    margin-top: 10px;
+}
+
+.contain .form .country option {
+    display: block;
+    width: 100%;
+    height: 46px;
+}
+
+.contain .form p {
+    margin-top: 10px;
+    color: #666666;
+}
+
+.contain .form .phone {
+    display: block;
+    margin-top: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.contain .form .cell {
+    width: 74px;
+    height: 42px;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+}
+
+.contain .form .phone-num {
+    width: 254px;
+    height: 42px;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-left: 10px;
+    outline: none;
+}
+
+.contain .form .error-box {
+    display: inline-block;
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+.erroll .form .error-box i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/icon_user.png);
+    background-position-x: right;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.contain .form .error {
+    border: 1px solid red;
+}
+
+.contain .form .right-now {
+    width: 100%;
+    height: 42px;
+    background: #ff6700;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    position: absolute;
+    bottom: -204px;
+    cursor: pointer;
+}
+
+.contain .form .right-now:hover {
+    opacity: 0.7;
+}
+
+.contain .argee {
+    text-align: center;
+    margin-top: 233px;
+    color: #999999;
+}
+
+.contain .argee b {
+    color: black;
+}
+
+.contain .form .password,
+.contain .form .password_two {
+    width: 100%;
+    height: 46px;
+    margin-top: 26px;
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+    padding-left: 10px;
+    outline: none;
+}
+
+.contain .form .err {
+    border: 1px solid red;
+}
+
+.contain .form .repetition_sub {
+    color: #757575;
+}
+
+.contain .form .notice {
+    height: 16px;
+    margin-top: 16px;
+    position: relative;
+}
+
+.contain .form .notice .annotation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: normal;
+}
+
+.contain .form .notice .font_zero {
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    color: red;
+    font-weight: normal;
+}
+
+.contain .form .notice .font_zero i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/icon_tip.png);
+    background-position: -12px 1px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.footer {
+    height: 102px;
+}
+
+.footer .footerInfo {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+
+.footer .footerInfo ul {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.footer .footerInfo ul li {
+    float: left;
+    font-size: 14px;
+}
+
+.footer .footerInfo ul li a {
+    color: #757575;
+}
+
+.footer .footerInfo ul li a:hover {
+    color: #333333;
+}
+
+.footer .footerInfo ul li:nth-last-of-type(2n) {
+    margin: 0 12px;
+}
+
+.footer .footerInfo p {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.footer .footerInfo p i {
+    display: inline-block;
+}

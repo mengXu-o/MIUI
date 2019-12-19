@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.subnav {
+    width: 234px;
+    height: 458px;
+    background: #fff;
+    border: 1px solid #9c9d9f;
+    position: absolute;
+    top: 84px;
+    left:-3px;
+    z-index: 3;
+    border: 1px solid #ff6700;
+    display: none;
+    transition: 0.3s;
+    
+}
+
+.subnav ul {
+    width: 234px;
+    float: left;
+    margin-top: 20px;
+}
+
+.subnav ul li {
+    height: 41px;
+    line-height: 41px;
+    padding-left: 30px;
+    color: #333;
+    background: url(../img/smalljiantou.png) no-repeat;
+    background-position: 204px center;
+    cursor: pointer;
+    text-align: left;
+    
+}
+
+.subnav ul li:hover {
+    background: url(../img/smalljiantou.png) no-repeat #ff6700;
+    background-position: 204px center;
+}
+
+.subnav_goods {
+    /* width: 994px;
+    height: 460px; */
+    
+    position: absolute;
+    top: 1px;
+    left: 234px;
+}
+
+.subnav_goods .case {
+    width: 994px;
+    height: 460px;
+}
+
+.subnav_goods .subnav_goods_box {
+    width: 994px;
+    height: 460px;
+    background: white;
+    position: absolute;
+    display: none;
+    top: 84px;
+    left: 0px;
+    box-shadow: 0 0 1px 1px #e7e7e7;
+    float: left;
+}
+
+.subnav_goods .subnav_goods_box ul {
+    float: left;
+}
+
+.subnav_goods .subnav_goods_box ul li {
+    width: 248.5px;
+    height: 76.6px;
+    /* overflow: hidden; */
+}
+
+.subnav_goods .subnav_goods_box ul li img {
+    float: left;
+    margin: 18px 0px 0px 16px;
+}
+
+.subnav_goods .subnav_goods_box ul li span {
+    display: inline-block;
+    line-height: 76.6px;
+    margin-left: 14px;
+}
+/* .block{
+    display: block;
+} */
+

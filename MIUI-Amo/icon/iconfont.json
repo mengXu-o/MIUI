@@ -1,0 +1,107 @@
+{
+  "id": "1450812",
+  "name": " ",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "90513",
+      "name": "15天无理由退货",
+      "font_class": "15tianwuliyoutuihuo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "356490",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "429499",
+      "name": "微信",
+      "font_class": "logo-wechat",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "880429",
+      "name": "扳手",
+      "font_class": "editor2",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "974778",
+      "name": "7天退换",
+      "font_class": "7tiantuihuan",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "1288599",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1312057",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "1330577",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e73e",
+      "unicode_decimal": 59198
+    },
+    {
+      "icon_id": "2681683",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5387553",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "eafe",
+      "unicode_decimal": 60158
+    },
+    {
+      "icon_id": "6857092",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "8652816",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "8776711",
+      "name": "record",
+      "font_class": "icon-test",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "10867303",
+      "name": "向右 箭头",
+      "font_class": "changyongtubiao-mianxing-",
+      "unicode": "e7c3",
+      "unicode_decimal": 59331
+    }
+  ]
+}

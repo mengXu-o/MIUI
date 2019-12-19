@@ -1,0 +1,99 @@
+.box {
+    width: 1228px;
+    height: 460px;
+    /* border: 1px solid black; */
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.lunbotu_img {
+    width: 1228px;
+}
+
+.pic {
+    width: 10000px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pic li {
+    width: 1228px;
+    height: 100%;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+}
+
+.direction {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+}
+
+.direction span {
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.direction span:nth-of-type(2) {
+    float: right;
+}
+
+.arrows {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+
+.arrows ul li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1.5px solid rgba(110, 110, 110, 0.5);
+}
+
+.arrows .grey {
+    background: rgba(223, 219, 219, 0.5);
+}
+
+.lt-box,
+.gt-box {
+    width: 41px;
+    height: 69px;
+}
+
+.gt,
+.lt {
+    display: inline-block;
+    width: 41px;
+    height: 69px;
+    color: #d3d5d6;
+    background: url(../img/jiantou.png);
+}
+
+.lt-box {
+    position: absolute;
+    left: 0px;
+}
+
+.gt-box {
+    position: absolute;
+    right: 0px;
+}
+
+.lt {
+    transform: rotateY(180deg);
+}
+
+.lt-box:hover,
+.gt-box:hover {
+    background: rgba(0, 0, 0, 0.5);
+}

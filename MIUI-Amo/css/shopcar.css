@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+.top {
+    height: 100px;
+    border-bottom: 2px solid #ff6700;
+}
+
+.top .header {
+    width: 1228px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.top .header h1 {
+    margin-top: 26px;
+    float: left;
+}
+
+.top .header p {
+    display: inline-block;
+    line-height: 100px;
+}
+
+.top .header .myCar {
+    font-size: 28px;
+    line-height: 100px;
+    margin-left: 44px;
+    color: #424242;
+}
+
+.top .header .warm_prompt {
+    font-size: 12px;
+    color: #757575;
+    margin-left: 16px;
+}
+
+.top .header .myOrder {
+    float: right;
+    font-size: 12px;
+    color: #757575;
+}
+
+.main {
+    background: #f5f5f5;
+    overflow: hidden;
+    padding-bottom: 54px;
+}
+
+.main .statistics {
+    width: 1228px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 26px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    background: white;
+    margin-top: 38px;
+    position: relative;
+}
+
+.main .statistics input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+}
+
+.main .statistics [type="checkbox"]:checked {
+    background: url(../img/gou.png) no-repeat center center;
+}
+
+.main .statistics p {
+    display: inline-block;
+    font-size: 12px;
+    color: #424242;
+}
+
+.main .statistics .checkAll {
+    margin-left: 34px;
+}
+
+.main .statistics .productID {
+    margin-left: 144px;
+}
+
+.main .statistics .price {
+    margin-left: 380px;
+}
+
+.main .statistics .count {
+    margin-left: 134px;
+}
+
+.main .statistics .aggregate {
+    margin-left: 152px;
+}
+
+.main .statistics .operation {
+    margin-left: 106px;
+}
+
+.main .myGoods {
+    width: 1228px;
+    margin: 0 auto;
+    background: white;
+}
+
+.main .myGoods .goods {
+    height: 116px;
+    border-top: 1px solid #e0e0e0;
+    position: relative;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.main .myGoods .goods input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    top: 48px;
+    left: 24px;
+}
+
+.main .myGoods .goods [type="checkbox"]:checked {
+    background: url(../img/gou.png) no-repeat center center;
+}
+
+.main .myGoods .goods .goodsImg {
+    width: 80px;
+    height: 80px;
+    margin-left: 110px;
+    float: left;
+}
+
+.main .myGoods .goods .goodsImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .myGoods .goods .myGoodsId {
+    width: 432px;
+    height: 100%;
+    float: left;
+    margin-left: 32px;
+}
+
+.main .myGoods .goods .myGoodsId p {
+    color: #424242;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 33px;
+}
+
+.main .myGoods .goods .myGoodsPrice {
+    float: left;
+    width: 108px;
+    height: 100%;
+}
+
+.main .myGoods .goods .myGoodsPrice p {
+    color: #424242;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 37px;
+}
+
+.main .myGoods .goods .addAndRemove {
+    float: left;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    margin-top: 23px;
+}
+
+.main .myGoods .goods .addAndRemove .remove,
+.main .myGoods .goods .addAndRemove .add {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #454545;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main .myGoods .goods .addAndRemove .remove:hover,
+.main .myGoods .goods .addAndRemove .add:hover {
+    background: #b0b0b0;
+}
+
+.main .myGoods .goods .addAndRemove .remove {
+    float: left;
+}
+
+.main .myGoods .goods .addAndRemove .add {
+    float: right;
+}
+
+.main .myGoods .goods .addAndRemove .num {
+    float: left;
+    width: 68px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.main .myGoods .goods .subtotal {
+    float: left;
+    width: 198px;
+    height: 100%;
+}
+
+.main .myGoods .goods .subtotal p {
+    text-align: center;
+    font-size: 16px;
+    color: #ff6700;
+    line-height: 16px;
+    margin-top: 37px;
+}
+
+.main .myGoods .goods .Del {
+    float: left;
+    margin-top: 37px;
+    margin-left: 38px;
+    width: 12px;
+    height: 12px;
+}
+
+.main .myGoods .goods .Del i {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #474747;
+    cursor: pointer;
+}
+
+.main .Settlement {
+    width: 1228px;
+    height: 50px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 18px;
+    padding: 0 0 0 18px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.main .Settlement .return {
+    margin-top: 22px;
+    float: left;
+    width: 76px;
+    font-size: 14px;
+    height: 14px;
+    border-right: #eeeeee;
+    color: #757575;
+    cursor: pointer;
+}
+
+.main .Settlement .return:hover {
+    color: #ff6700;
+}
+
+.main .Settlement .goodsInfo {
+    margin-top: 22px;
+    float: left;
+    font-size: 14px;
+    height: 14px;
+    margin-left: 16px;
+}
+
+.main .Settlement .goodsInfo span {
+    color: #ff6700;
+}
+
+.main .Settlement .total {
+    position: absolute;
+    right: 202px;
+    bottom: 10px;
+    width: 160px;
+}
+
+.main .Settlement .total p {
+    color: #ff6700;
+    font-size: 14px;
+}
+
+.main .Settlement .total p span {
+    font-size: 22px;
+}
+
+.main .Settlement .Settlement_Btn {
+    float: right;
+    width: 202px;
+    height: 50px;
+    background: #ff6700;
+    cursor: pointer;
+}
+
+.main .Settlement .Settlement_Btn p {
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}

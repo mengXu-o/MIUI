@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/shopcar.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1450812_d9eafx3wfwa.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/Cookie.js"></script>
+    <script src="../js/use/shopcar.js"></script>
+    <script src="../js/use/footer.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="header">
+            <h1>
+                <img src="../img/milogo.png" alt="">
+            </h1>
+            <p class="myCar">我的购物车</p>
+            <p class="warm_prompt">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+            <p class="myOrder">我的订单</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="statistics">
+            <input type="checkbox" id="checkAll">
+            <p class="checkAll">全选</p>
+            <p class="productID">商品名称</p>
+            <p class="price">单价</p>
+            <p class="count">数量</p>
+            <p class="aggregate">小计</p>
+            <p class="operation">操作</p>
+        </div>
+        <div class="myGoods">
+            <!-- <div class="goods clearfix" gata-id="">
+                <input type="checkbox" name="" class="select">
+                <div class="goodsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="myGoodsId">
+                    <p>小米休闲运动双肩包 黑色</p>
+                </div>
+                <div class="myGoodsPrice">
+                    <p>149元</p>
+                </div>
+                <div class="addAndRemove">
+                    <p class="remove">-</p>
+                    <p class="num">1</p>
+                    <p class="add">+</p>
+                </div>
+                <div class="subtotal">
+                    <p>149元</p>
+                </div>
+                <div class="Del">
+                    <i class="iconfont icon-shanchu"></i>
+                </div>
+            </div> -->
+        </div>
+        <div class="Settlement ">
+            <p class="return">继续购物</p>
+            <p class="goodsInfo">共 <span class="goods_count"></span> 件商品 ，已选择 <span class="selected">0</span> 件</p>
+            <div class="total">
+                <p>合计：<span></span>元</p>
+            </div>
+            <div class="Settlement_Btn">
+                <p>去结算</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>
